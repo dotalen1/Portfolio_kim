@@ -21,7 +21,7 @@
 ---
 
 # 최종 설계 판넬
-<img width="644" height="1284" alt="캡스톤도시설계" src="https://github.com/user-attachments/assets/e89f7c24-b6b8-4889-8114-71fac9d7d180" />
+<img width="513" height="1024" alt="캡스톤 도시설계" src="https://github.com/user-attachments/assets/aa97d144-57d4-4837-99b8-eb7d8098aa74" />
 
 ---
 
