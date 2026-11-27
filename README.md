@@ -74,7 +74,38 @@
 ---
 
 # 결과물
-[GIS공간분석론 1조.zip](https://github.com/user-attachments/files/35489250/GIS.1.zip)
+**1차 분류를 위한 분석**
+<img width="474" height="292" alt="image" src="https://github.com/user-attachments/assets/1335bc61-b6f0-4462-b13b-52739ae5f400" />
+<img width="474" height="308" alt="image" src="https://github.com/user-attachments/assets/8debf26f-f12d-4eb6-97e6-339733b77975" />
+
+**1차 분류 분석결과**
+<img width="482" height="599" alt="image" src="https://github.com/user-attachments/assets/e14ad6b9-330d-4497-a581-303b70aa7ea0" />
+
+**지하철 커버리지**
+<img width="365" height="544" alt="image" src="https://github.com/user-attachments/assets/06427f94-f78a-4935-a4d0-a53970560e87" />
+<img width="392" height="543" alt="image" src="https://github.com/user-attachments/assets/f30f1805-dc05-46d6-a119-7abff1726071" />
+
+**초등학교 커버리지**
+<img width="349" height="416" alt="image" src="https://github.com/user-attachments/assets/e084f20f-e85a-4f87-a28b-6950afd6d042" />
+<img width="330" height="416" alt="image" src="https://github.com/user-attachments/assets/669c303b-d6c6-4edd-ac0e-a4f1449966a9" />
+
+**응급실 커버리지**
+<img width="363" height="453" alt="image" src="https://github.com/user-attachments/assets/103c10da-db93-47fa-9993-4477973cac81" />
+<img width="364" height="453" alt="image" src="https://github.com/user-attachments/assets/7334a394-8bff-48f2-b2c8-61727f34d08d" />
+
+**개발제한구역을 제거한 평당가 커버리지**
+<img width="597" height="530" alt="image" src="https://github.com/user-attachments/assets/7013643b-c3b9-4b5e-9e11-5b37d3bf5287" />
+<img width="580" height="444" alt="image" src="https://github.com/user-attachments/assets/1a87f2bf-98d8-4b6d-aabb-efa260eef873" />
+<img width="565" height="444" alt="image" src="https://github.com/user-attachments/assets/8aae53a0-67e9-49df-a82c-55f9434887e4" />
+
+**결과**
+<img width="540" height="594" alt="image" src="https://github.com/user-attachments/assets/a68b1c15-8522-47c3-a75e-6ad1a5f6191c" />
+
+
+**흐름도**
+<img width="1015" height="567" alt="image" src="https://github.com/user-attachments/assets/97cbedcc-fd92-4743-9d3f-f6a7b5fb7b2c" />
+<img width="1002" height="561" alt="image" src="https://github.com/user-attachments/assets/9280453c-e2d8-4cc7-8df2-7fc21183d3d3" />
+
 
 ---
 
@@ -112,4 +143,71 @@
 ---
 
 ---
+# 3. 영주댐 수몰지구 토지피복 변화 분석 (위성영상정보처리)
+
+> **학부 위성영상정보처리 실습 개인 프로젝트**  
+> 대규모 댐 건설로 극적인 지표 변화가 발생한 경상북도 영주시 영주댐 일대를 대상으로, 건설 전(2011년)과 후(2024년) 정사영상의 모자이크·기하보정·감독분류(SVM)를 수행해 토지피복 변화를 정량적으로 비교 분석한 프로젝트
+
+---
+
+프로젝트 개요
+* **진행 기간:** 2025.10 - 2025.11
+* **구분:** 학부 전공 수업 (개인 프로젝트)
+* **사용 툴:** ArcGIS Pro (`Mosaic To New Raster`, `Georeference`, `Image Classification - SVM`, `Reclassifier`)
+* **대상지:** 경상북도 영주시 평은면 용혈리 영주댐 일대 (내성천 / 높이 55.5m, 길이 400m, 총 저수량 1억 8,110만 m³)
+* **핵심 목표:**
+  * 대규모 댐 건설(하천·산림 → 거대 저수지)에 따른 토지피복 변화를 시계열 정사영상으로 시각화
+  * 수동 기준점(GCP) 기반 기하보정과 1·2차 감독분류를 통해 영상 정합 및 분류 정확도 확보
+  * 대규모 토목 공사가 주변 자연환경 및 기반시설에 미친 영향을 픽셀 비율로 정량 검증
+
+---
+
+# 분석 과정 및 최종 결과
+**기하보정**
+<img width="476" height="426" alt="image" src="https://github.com/user-attachments/assets/69ffdd26-d60b-46b6-aba5-4f515a87ef2b" />
+<img width="371" height="448" alt="image" src="https://github.com/user-attachments/assets/babc58ba-bab9-480c-8e07-eafec3ef9b2f" />
+
+**감독분류 2011**
+<img width="372" height="444" alt="image" src="https://github.com/user-attachments/assets/fa8408e6-afbd-4029-a338-1dd00da0c83d" />
+<img width="366" height="444" alt="image" src="https://github.com/user-attachments/assets/6a264e0b-7131-4c77-ad0f-90c9b454caab" />
+
+**감독분류 2024**
+<img width="370" height="448" alt="image" src="https://github.com/user-attachments/assets/57dff21b-fb07-4145-b599-22b632d37a86" />
+<img width="368" height="450" alt="image" src="https://github.com/user-attachments/assets/4a073000-99a3-45ac-917b-0218e82d4ee4" />
+
+**감독분류 결과 비교**
+<img width="507" height="276" alt="image" src="https://github.com/user-attachments/assets/9e1be383-41bb-4b6c-a2ca-e3cba89ffcef" />
+<img width="507" height="276" alt="image" src="https://github.com/user-attachments/assets/4b5f3246-14ca-4a59-9986-af24a5854eed" />
+
+
+---
+
+# 수행 업무 및 분석 과정
+
+## 1. 대상지 선정 및 정사영상 모자이크 (Mosaic)
+* **극단적 변화 사례 선정:** 400년 역사의 금강마을 수몰과 하천 자연성 상실 등 대규모 토목 공사로 인한 토지피복 변화가 뚜렷하게 드러나는 영주댐 수몰지구를 대상지로 선정했습니다.
+* **영상 병합:** 대상지 전역을 포괄하기 위해 2011년(건설 전)과 2024년(건설 후) 정사영상 각 4장씩을 `Mosaic To New Raster` 도구로 병합해 단일 분석 영상을 구축했습니다.
+
+## 2. 수동 기준점(GCP) 기반 기하보정 (Georeferencing)
+* **직접 GCP 설정:** 자동 기하보정 기능에 의존하지 않고, 2011년 모자이크 영상을 기준으로 2024년 영상에 직접 **지상기준점(GCP)**을 설정해 1차 다항식(Affine) 변환으로 수동 기하보정을 수행했습니다.
+* 이를 통해 시계열 영상 간 좌표 오차를 줄이고 공간 정합의 원리를 실무적으로 체득했습니다.
+
+## 3. 1·2차 감독분류(SVM) 및 정량적 변화 분석
+* **1차 감독분류:** ArcGIS Pro의 **SVM(Support Vector Machine)** 알고리즘을 적용해 대상지를 5개 클래스(**숲, 평야, 물, 건물, 포장도로**)로 분류했습니다.
+* **2차 재분류(정확도 개선):** 1차 분류 결과에서 발생한 오분류 영역을 줄이기 위해 확실한 지형을 세세하게 대조하며 `Reclassifier` 도구로 2차 감독분류를 수행했습니다.
+* **2011년 vs 2024년 토지피복 변화 결과:**
+
+| 구분 | 2011년 픽셀 수 | 2011년 비율(%) | 2024년 픽셀 수 | 2024년 비율(%) | 변화 추이 |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **숲** | 83,161,162 | 75.47% | 299,899,122 | 71.11% | 약 4.36%p 감소 |
+| **평야** | 20,738,080 | 18.82% | 35,300,037 | 8.37% | 약 10.45%p 감소 |
+| **물** | 2,391,930 | 2.17% | 66,683,564 | 15.81% | 약 13.64%p 증가 |
+| **건물** | 3,005,954 | 2.72% | 14,173,334 | 3.36% | 약 0.64%p 증가 |
+| **포장도로** | 880,356 | 0.79% | 5,674,038 | 1.34% | 약 0.55%p 증가 |
+
+---
+
+# 프로젝트 회고 및 배운 점
+* **데이터 기반 객관적 검증 태도 확립:** 댐 건설로 수몰이 발생하면 숲과 평야뿐만 아니라 기존의 건물과 도로도 함께 줄어들 것이라 예측했습니다. 그러나 분석 결과 숲과 평야는 크게 감소한 반면, 댐 건설에 따른 대규모 신규 도로 및 교량 등 기반시설 확충으로 **건물과 포장도로 비율은 오히려 증가**했습니다. 이를 통해 현실 데이터는 직관적 예측과 다른 방향으로 나타날 수 있음을 깨닫고, 선입견 없이 데이터 자체로 검증하는 자세를 길렀습니다.
+* **전처리 및 검수의 중요성 체감:** 자동 보정 대신 수동으로 GCP를 찍어 기하보정을 진행하고 1·2차 감독분류를 거쳐 오분류를 바로잡으면서, 공간정보 분석의 완성도는 결국 원천 영상의 정합성과 꼼꼼한 검수 과정에 달려 있다는 점을 깊이 체감했습니다.
 
