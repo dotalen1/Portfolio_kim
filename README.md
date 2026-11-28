@@ -345,7 +345,8 @@ https://github.com/chanki-lee/chickenreview
 프로젝트 개요
 * **진행 기간:** 2026.9.11 - 9.16
 * **구분:** 교육 과정 웹 팀 프로젝트 (4인)
-* **사용 기술:** MySQL, Oracle SQL Developer, JSP, HTML / CSS, FullCalendar, Java, Spring Framework, MyBatis, Apache Tomcat, GitHub
+* **사용 기술:** MySQL, Oracle SQL Developer, JSP, CSS, FullCalendar, Java, Spring Framework, MyBatis, Apache Tomcat, GitHub
+* **개인 사용 기술:** MySQL, Oracle SQL Developer, GitHub, Spring Framework
 * **핵심 목표:**
   * 고용24·서민금융진흥원(청년 정책), 큐넷·대한상공회의소(자격증), 기업 채용 공고에 흩어진 일정을 한눈에 비교·관리하는 통합 플랫폼 기획
   * 회원·일정 마스터·신청 이력·소지 자격증 데이터를 아우르는 정규화된 관계형 DB(ERD) 설계 및 구축
@@ -381,10 +382,6 @@ https://github.com/DAADrarat/Project5.git
 * **논리·물리적 모델링 및 구축:** 서비스 요구사항을 바탕으로 논리적 모델링, 물리적 모델링, MySQL 실제 테이블 구축까지 DB 전 과정을 전담했습니다.
 * **9개 테이블 구조화:** `member`(회원)를 중심으로 `gov_support_policy`(정부지원정책), `recruitment`(채용), `cert`·`cert_exam`(자격증 및 시험) 마스터 테이블과, 사용자의 선택·보유 내역을 관리하는 신청 이력 3종(`policy_app_history`, `job_app_history`, `cert_exam_app_history`) 및 `possessed_cert`(소지 자격증) 테이블을 설계했습니다.
 * **참조 무결성(삭제 규칙) 설계:** 회원 데이터가 삭제될 때 연관된 신청 이력과 소지 자격증 내역이 함께 정리되도록 `CASCADE`를 설정하고, 원본 정책·채용·자격증 정보는 신청 이력이 참조 중일 때 임의로 삭제되지 않도록 `RESTRICT` 조건을 적용해 데이터 무결성을 확보했습니다.
-
-## 3. 메인 화면 구현 및 FullCalendar 도입
-* **메인 페이지 제작:** 서비스의 중심이 되는 메인 화면(`main.jsp`)의 레이아웃과 UI를 JSP·CSS로 구현했습니다.
-* **FullCalendar 연동 기반 마련:** 일정 관리 기능을 직관적으로 시각화하기 위해 오픈소스 캘린더 라이브러리인 **FullCalendar**를 도입·적용하여, 팀원들이 백엔드 일정 데이터를 캘린더 화면에 연동할 수 있는 프론트엔드 기반을 구축했습니다.
 
 ---
 
