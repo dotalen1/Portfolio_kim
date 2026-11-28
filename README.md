@@ -351,8 +351,7 @@ https://github.com/chanki-lee/chickenreview
 참조 조건
 <img width="1002" height="537" alt="image" src="https://github.com/user-attachments/assets/b0195538-1419-4b99-8672-163bf0461bf8" />
 
-
-역공학 
+최종 물리적 ERD (MySQL 구축 후 역공학 추출)
 <img width="715" height="621" alt="image" src="https://github.com/user-attachments/assets/857c1b38-3eda-41fc-b8d9-535614efcf7b" />
 
 
