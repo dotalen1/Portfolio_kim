@@ -299,7 +299,7 @@
     
 ---
 
-# 서비스 화면 및 DB 구조 (ERD)
+# 최종 결과물
 https://github.com/chanki-lee/chickenreview
 [project2.pptx](https://github.com/user-attachments/files/35509482/project2.pptx)
 
@@ -353,7 +353,7 @@ https://github.com/chanki-lee/chickenreview
 
 ---
 
-# DB 구조 (ERD) 및 메인 화면
+# DB 구조 (ERD) 및 최종 결과물
 논리적 모델
 <img width="1072" height="567" alt="image" src="https://github.com/user-attachments/assets/2c4db9da-f8f1-4650-bde1-a5f87d95c485" />
 
